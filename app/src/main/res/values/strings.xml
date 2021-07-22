@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Juego Tron con posicionamiento</string>
+    <string name="usuario">Escribe tu usuario:</string>
+    <string name="password">Escribe tu contraseña:</string>
+
+    <string name="miUsuario">Mi usuario: </string>
+    <string name="miIdSesion">Mi sesión: </string>
+    <string name="miPuntuacion">Mi puntuación: </string>
+    <string name="usuarioColision">He colisinado con: </string>
+
+    <!--Etiquetas de botones -->
+
+    <string name="login">Login</string>
+    <string name="historicoPuntuaciones">Histórico de puntuaciones</string>
+    <string name="inicioPartida">Inicio de partida</string>
+    <string name="cerrarSesion">Cerrar sesión</string>
+    <string name="volverInicio">Volver a inicio</string>
+
+    <string name="title_activity_main2">Página de inicio</string>
+    <string name="title_activity_partida">Map</string>
+
+</resources>

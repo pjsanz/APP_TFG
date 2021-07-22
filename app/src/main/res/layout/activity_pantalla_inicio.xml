@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytContenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/lblUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/miUsuario"
+    />
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/lblIdSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/miIdSesion"
+    />
+    <TextView
+        android:id="@+id/idSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+    />
+
+    <Button
+        android:id="@+id/inicioPartida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="inicioPartida"
+        android:text="@string/inicioPartida" />
+
+    <Button
+        android:id="@+id/puntuaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="historicoPuntuaciones"
+        android:text="@string/historicoPuntuaciones" />
+
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cerrarSesion"
+        android:text="@string/cerrarSesion" />
+</LinearLayout>
